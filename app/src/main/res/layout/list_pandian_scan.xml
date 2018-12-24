@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="商品编码："
+            />
+
+        <TextView
+            android:id="@+id/list_tvPLUCODE"
+            android:layout_width="@dimen/x280"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="00000012342344 000000"
+            />
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x10"
+            android:textSize="15dp"
+            android:text="序号："
+            android:visibility="invisible"
+            />-->
+
+        <!--靠最右边 ayout_width="fill_parent" android:gravity="right" -->
+        <TextView
+            android:id="@+id/list_tvXH"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/x5"
+            android:gravity="right"
+            android:textSize="17dp"
+            android:text="1"
+            android:textColor="@color/blue"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="品名："
+
+            />
+
+        <TextView
+            android:id="@+id/list_tvPLUNAME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="金龙鱼一级压榨食用调和油"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="包装："
+            android:textColor="@color/blackTransparentA"
+            />
+
+        <TextView
+            android:id="@+id/list_tvBZ"
+            android:layout_width="@dimen/x65"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="10"
+            android:textColor="@color/blackTransparentA"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x10"
+            android:textSize="15dp"
+            android:text="单件："
+            android:textColor="@color/blackTransparentA"
+            />
+
+        <TextView
+            android:id="@+id/list_tvDJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="100"
+            android:textColor="@color/blackTransparentA"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x40"
+            android:textSize="15dp"
+            android:text="总数："
+            android:textColor="@color/blackTransparentA"
+            />
+
+        <TextView
+            android:id="@+id/list_tvZS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="1000"
+            android:textColor="@color/blackTransparentA"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

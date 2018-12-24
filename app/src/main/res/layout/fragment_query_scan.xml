@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y45">
+        <TextView
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/y40"
+            android:textSize="16sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="关键字："/>
+
+        <com.seuic.hisense.views.QueryEditText
+            android:layout_marginRight="@dimen/x10"
+            android:id="@+id/et_query_data"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y40"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            custom:queryEdittextHint="条码、编码或名称"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/lv_destination"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

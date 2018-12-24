@@ -1,0 +1,260 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <com.seuic.hisense.views.GridviewItem
+            android:id="@+id/menu_pandian"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y140"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/gridview_item_click_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="0dp"
+            custom:gridlogo="@mipmap/pandian"
+            custom:gridtext="盘点" />
+
+        <TextView
+            android:layout_width="@dimen/x1"
+            android:layout_height="fill_parent"
+            android:background="#11322a10" />
+
+        <com.seuic.hisense.views.GridviewItem
+            android:id="@+id/menu_caigou"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y140"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/gridview_item_click_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="0dp"
+            custom:gridlogo="@mipmap/caigou"
+            custom:gridtext="采购" />
+
+        <TextView
+            android:layout_width="@dimen/x1"
+            android:layout_height="fill_parent"
+            android:background="#11322a10" />
+
+
+        <com.seuic.hisense.views.GridviewItem
+            android:id="@+id/menu_yanshou"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y140"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/gridview_item_click_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="0dp"
+            custom:gridlogo="@mipmap/yanshou"
+            custom:gridtext="验收" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y1"
+        android:background="#11322a10" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <com.seuic.hisense.views.GridviewItem
+            android:id="@+id/menu_tuihuo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y140"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/gridview_item_click_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="0dp"
+            custom:gridlogo="@mipmap/tuihuo"
+            custom:gridtext="退货" />
+
+        <TextView
+            android:layout_width="@dimen/x1"
+            android:layout_height="fill_parent"
+            android:background="#11322a10" />
+
+        <com.seuic.hisense.views.GridviewItem
+            android:id="@+id/menu_yaohuo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y140"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/gridview_item_click_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="0dp"
+            custom:gridlogo="@mipmap/yaohuo"
+            custom:gridtext="要货" />
+
+        <TextView
+            android:layout_width="@dimen/x1"
+            android:layout_height="fill_parent"
+            android:background="#11322a10" />
+
+
+        <com.seuic.hisense.views.GridviewItem
+            android:id="@+id/menu_peisong"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y140"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/gridview_item_click_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="0dp"
+            custom:gridlogo="@mipmap/peisong"
+            custom:gridtext="配送" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y1"
+        android:background="#11322a10" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <com.seuic.hisense.views.GridviewItem
+            android:id="@+id/menu_pifaxiaoshou"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y140"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/gridview_item_click_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="0dp"
+            custom:gridlogo="@mipmap/pifaxiaoshou"
+            custom:gridtext="批发销售" />
+
+        <TextView
+            android:layout_width="@dimen/x1"
+            android:layout_height="fill_parent"
+            android:background="#11322a10" />
+
+        <com.seuic.hisense.views.GridviewItem
+            android:id="@+id/menu_tuihuo_pifa"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y140"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/gridview_item_click_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="0dp"
+            custom:gridlogo="@mipmap/tuihuo_pifa"
+            custom:gridtext="批发退货" />
+
+        <TextView
+            android:layout_width="@dimen/x1"
+            android:layout_height="fill_parent"
+            android:background="#11322a10" />
+
+        <com.seuic.hisense.views.GridviewItem
+            android:id="@+id/menu_diaobo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y140"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/gridview_item_click_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="0dp"
+            custom:gridlogo="@mipmap/diaobo"
+            custom:gridtext="店间调拨" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y1"
+        android:background="#11322a10" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <com.seuic.hisense.views.GridviewItem
+            android:id="@+id/menu_print"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y140"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/gridview_item_click_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="0dp"
+            custom:gridlogo="@mipmap/print"
+            custom:gridtext="打印任务" />
+
+        <TextView
+            android:layout_width="@dimen/x1"
+            android:layout_height="fill_parent"
+            android:background="#11322a10" />
+
+        <com.seuic.hisense.views.GridviewItem
+            android:id="@+id/menu_settings"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y140"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/gridview_item_click_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="0dp"
+            custom:gridlogo="@mipmap/settings"
+            custom:gridtext="系统功能" />
+
+        <TextView
+            android:layout_width="@dimen/x1"
+            android:layout_height="fill_parent"
+            android:background="#11322a10" />
+
+
+        <com.seuic.hisense.views.GridviewItem
+            android:id="@+id/yyb_old"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y140"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@drawable/gridview_item_click_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="0dp"
+            android:visibility="invisible"
+            custom:gridlogo="@mipmap/shrk_normal"
+            custom:gridtext="旧版本" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y1"
+        android:background="#11322a10" />
+
+
+</LinearLayout>
+

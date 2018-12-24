@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SubitemMenu">
+        <attr name="SubitemMenustartext" format="string"/>
+        <attr name="SubitemMenulogo" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="setTextviewTip">
+        <attr name="setTextviewTipText" format="string"/>
+        <attr name="setTextviewTipHint" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="gridviewitem">
+        <attr name="gridtext" format="string"/>
+        <attr name="gridlogo" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="queryEdittext">
+        <attr name="queryEdittextText" format="string"/>
+        <attr name="queryEdittextHint" format="string"/>
+    </declare-styleable>
+
+
+</resources>

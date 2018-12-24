@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="enter_bc">
+        <item>中班</item>
+        <item>晚班</item>
+    </string-array>
+    
+    <string-array name="enter_pros">
+        <item >标准快运</item>
+        <item >定时达</item>
+        <item >MiNi小包</item>
+    </string-array>
+
+    <string name="problem_sign_type">问题类型</string>
+
+    <string-array name="uploadStatus">
+        <item>未上传</item>
+        <item>已上传</item>
+    </string-array>
+
+    <string-array name="pandianType">
+        <item>实盘单</item>
+        <item>复盘单</item>
+    </string-array>
+
+    <string-array name="caigouAddress">
+        <item>卖场</item>
+        <item>仓库</item>
+    </string-array>
+
+
+    <string-array name="tiaoboFlag">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    </resources>
+    

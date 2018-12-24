@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" tools:context="com.seuic.hisense.fragments.MainFragment">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.seuic.hisense.views.SubitemMenu
+            android:id="@+id/sm_setting_modify_password"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y60"
+            custom:SubitemMenustartext="1、修改管理员密码"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/list_item_selector"
+            custom:SubitemMenulogo="@mipmap/widget_bar_explore_nor"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y2"
+            android:background="#11322a10"/>
+
+        <com.seuic.hisense.views.SubitemMenu
+            android:id="@+id/sm_setting_wifi"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y60"
+            custom:SubitemMenustartext="2、WIFI设置"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/list_item_selector"
+            custom:SubitemMenulogo="@mipmap/widget_bar_explore_nor"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y2"
+            android:background="#11322a10"/>
+
+        <com.seuic.hisense.views.SubitemMenu
+            android:id="@+id/sm_setting_gprs"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y60"
+            custom:SubitemMenustartext="3、GPRS设置"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/list_item_selector"
+            custom:SubitemMenulogo="@mipmap/widget_bar_explore_nor"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y2"
+            android:background="#11322a10"/>
+
+        <com.seuic.hisense.views.SubitemMenu
+            android:id="@+id/sm_setting_baseData"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y60"
+            custom:SubitemMenustartext="4、基础数据下载"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/list_item_selector"
+            custom:SubitemMenulogo="@mipmap/widget_bar_explore_nor"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y2"
+            android:background="#11322a10"/>
+        <com.seuic.hisense.views.SubitemMenu
+            android:id="@+id/sm_setting_setSite"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y60"
+            custom:SubitemMenustartext="5、组织编码设置"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/list_item_selector"
+            custom:SubitemMenulogo="@mipmap/widget_bar_explore_nor"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y2"
+            android:background="#11322a10"/>
+        <com.seuic.hisense.views.SubitemMenu
+            android:id="@+id/sm_setting_setUrl"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y60"
+            custom:SubitemMenustartext="6、服务器地址设置"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/list_item_selector"
+            custom:SubitemMenulogo="@mipmap/widget_bar_explore_nor"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y2"
+            android:background="#11322a10"/>
+
+        <com.seuic.hisense.views.SubitemMenu
+            android:id="@+id/sm_setting_setSystem"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y60"
+            custom:SubitemMenustartext="7、操作系统升级"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/list_item_selector"
+            custom:SubitemMenulogo="@mipmap/widget_bar_explore_nor"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y2"
+            android:background="#11322a10"/>
+
+        <com.seuic.hisense.views.SubitemMenu
+            android:id="@+id/sm_setting_setLog"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y60"
+            custom:SubitemMenustartext="8、日志上传"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/list_item_selector"
+            custom:SubitemMenulogo="@mipmap/widget_bar_explore_nor"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y2"
+            android:background="#11322a10"/>
+
+        <com.seuic.hisense.views.SubitemMenu
+            android:id="@+id/sm_setting_setDateTime"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y60"
+            custom:SubitemMenustartext="9、日期和时间"
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/list_item_selector"
+            custom:SubitemMenulogo="@mipmap/widget_bar_explore_nor"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/y2"
+            android:background="#11322a10"/>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

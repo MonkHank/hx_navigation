@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/steelblue">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x10">
+        <ImageView
+            android:id="@+id/iv_login_set"
+            android:layout_width="@dimen/x35"
+            android:layout_height="@dimen/y35"
+            android:layout_marginTop="@dimen/x35"
+            android:layout_marginRight="@dimen/x20"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/login_set"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_login_logo"
+        android:layout_marginTop="@dimen/y50"
+        android:layout_width="@dimen/x100"
+        android:layout_height="@dimen/y100"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/login_logo"/>
+
+    <TextView
+        android:id="@+id/tv_login_siteName"
+        android:layout_marginTop="@dimen/y10"
+        android:layout_marginBottom="@dimen/x10"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y40"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="海信手持终端-导航版"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/x5"
+        android:layout_marginRight="@dimen/x35"
+        android:layout_marginTop="@dimen/y10">
+        <ImageView
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/y50"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/login_user"
+            />
+        <EditText
+            android:id="@+id/et_login_uesr"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:hint="请输入账号"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/x10"
+            android:gravity="center"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/x5"
+        android:layout_marginRight="@dimen/x35"
+        android:layout_marginTop="@dimen/y15">
+        <ImageView
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/y50"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/login_password"
+            />
+        <EditText
+            android:id="@+id/et_login_password"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:hint="请输入密码"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:layout_marginLeft="@dimen/x10"
+            android:gravity="center"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/y15"
+        android:layout_marginLeft="@dimen/x5"
+        android:layout_marginRight="@dimen/x35"
+        android:layout_marginBottom="0dp"
+        >
+
+        <Button
+            android:id="@+id/bt_login_login"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y55"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:text="登录"
+            android:textColor="@color/cornsilk"
+            android:background="@drawable/buttonclickstyle"
+            android:layout_marginLeft="@dimen/x35"
+
+            />
+
+    </LinearLayout>
+
+    <!-- android:layout_weight="1"这里设置layout_weight=1是最关键的，否则底部的LinearLayout无法到底部 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_weight="1"
+        >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/y15"
+        android:layout_marginLeft="@dimen/x5"
+        android:layout_marginRight="@dimen/x5"
+        android:layout_marginBottom="@dimen/x5"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/tv_login_version"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/y30"
+                android:layout_weight="1"
+                android:text="版本号:1.0.0"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/tv_login_sn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/y30"
+                android:layout_weight="1"
+                android:text="设备号:MPNF809D2669609"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
