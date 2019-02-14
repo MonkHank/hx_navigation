@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hisense_daohang.iml" filepath="$PROJECT_DIR$/hisense_daohang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx_navigation.iml" filepath="$PROJECT_DIR$/hx_navigation.iml" />
     </modules>
   </component>
 </project>
